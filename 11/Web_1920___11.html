@@ -38,9 +38,9 @@
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: ../3/Web_1920___3.html;
-		cursor: pointer;
+		/* --web-action-type: page; */
+		/* --web-action-target: ../3/Web_1920___3.html; */
+		/* cursor: pointer; */
 		--web-view-name: Web 1920 – 11;
 		--web-view-id: Web_1920__11;
 		--web-scale-on-resize: true;
@@ -3325,7 +3325,7 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="Web_1920__11" onclick="application.goToTargetView(event)">
+<div id="Web_1920__11" >
 	<svg class="n_2">
 		<rect id="n_2" rx="0" ry="0" x="0" y="0" width="1935" height="110">
 		</rect>
@@ -3366,10 +3366,10 @@ window.application = new Application();
 		<span>My Account</span>
 	</div>
 	<div id="Email_Address">
-		<span>Email Address</span>
+		<input placeholder="Email Address"></input>
 	</div>
 	<div id="Password">
-		<span>Password</span>
+		<input placeholder="Password"></input>
 	</div>
 	<svg class="n_1_bl" viewBox="0 0 777 2">
 		<path id="n_1_bl" d="M 0 0 L 777 0">
@@ -3385,7 +3385,7 @@ window.application = new Application();
 			</rect>
 		</svg>
 		<div id="Login">
-			<span>Login</span>
+			<button>Login</button>
 		</div>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="n_21">
@@ -3394,7 +3394,7 @@ window.application = new Application();
 			</rect>
 		</svg>
 		<div id="Sign_Up">
-			<span>Sign Up</span>
+			<button>Sign Up</button>
 		</div>
 	</div>
 	<svg class="n_10">
